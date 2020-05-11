@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html lang="en-ca">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description"content="Negative or positive?">
+      <meta name="keywords"content= "negative, positive, number.">
+      <meta name="author"content= "Jeanine Baltazar">
+      <meta name="viewport"content="width=device-width, initial-scale=1.0">
+      <title>Negative or Positive?</title>
+      <link rel="stylesheet" href="mystyle.css">
+      <script>
+        //This creates the variable yourNumber
+        let yourNumber;
+        //This is my function
+        function check() {
+          /*This gets the value from the "yournumber" input box in the
+          "identifier" form and assigns that value as the variable
+          yourNumber */
+          yourNumber=document.identifier.yournumber.value
+          /*these tell the program what to do if "yourNumber"
+          is less than or greater than zero */
+          if (yourNumber<0) {
+            alert("Your Number is Negative")
+          } else {
+            alert ("Your Number is Positive")
+          }
+        }
+      </script>
+    </head>
+    <body>
+      <form name="identifier">
+        <h1>Negative or Positive?</h1>
+        <p id="explination">
+          Hello, World! This webpage will help you to identify if your number is
+          positive or negative. Just type in your number into the "Your Number:"
+          input box. Then, click the "Submit" button. If your number is negative,
+          the alert will say "Your Number is Negative!". If your number is positive,
+          the alert will say "Your Number is Positive!"
+        </p>
+        <table>
+          <tr>
+            <td>
+              <p id="title">Your Number:</p>
+            </td>
+            <td>
+              <input type="text" name="yournumber" id="input">
+            </td>
+          </tr>
+        </table>
+        <input type="button" value="Submit" onclick="check()" id="button">
+      </form>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(255, 204, 204);
+}
+h1 {
+  text-align:center;
+  background-color: white;
+  padding:10px;
+  border:1px solid black;
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+form {
+  background-color:rgb(255, 230, 230);
+  padding:10px;
+  width:800px;
+  height:900px;
+  margin-left:auto;
+  margin-right:auto;
+  border:1px solid black;
+}
+#explination {
+  width:720px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:110%;
+  font-family: serif
+}
+#title {
+  font-weight: bold;
+  font-size:135%;
+  text-align:center;
+  margin-left:40px;
+  font-family: serif
+}
+#input {
+  width:532px;
+  height:35px;
+  margin-left:40px;
+  font-size:120%;
+}
+#button {
+  background-color:rgb(242, 242, 242);
+  font-size:135%;
+  width:135px;
+  font-family: serif;
+  margin-left:43px;
+}
